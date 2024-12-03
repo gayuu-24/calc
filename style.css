@@ -1,0 +1,119 @@
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    border: none;
+    background: transparent;
+    box-shadow: 2px;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    padding: 3px;
+    margin-right: 12px;
+    margin-top: 3px;
+    margin-left: 8px;
+    box-shadow: 0px 3px 3px gray;
+
+
+}
+.btn{
+    display: flex;
+    padding: 5px;
+}
+
+
+#keys{
+    width: 370px;
+    height: 450px;
+    background:transparent;
+   
+}
+
+#calc{
+    border-radius: 0 0 4px 4px;
+    border:1px solid 717377;
+    box-shadow:0px 3px 25px dimgray;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#1b1919dd,#242525);
+}
+
+input{
+    width: 367px;
+    height: 90px;
+    border: none;
+    background:transparent;
+    border-radius: 4px 4px 0 0;
+    font-size: 48px;
+    text-align: right;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+input:hover,input:focus{
+        outline: none;
+    }
+    
+
+
+button:hover{
+    background-color: rgb(70, 70, 71);
+}
+
+@media screen and (max-width:900px){
+    button{
+        width: 45px;
+        height: 45px;
+        border-radius: 3px;
+        border: none;
+        background: transparent;
+        box-shadow: 1px;
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        padding: 1px;
+        margin-right: 6px;
+        margin-top: 1px;
+        margin-left: 4px;
+        box-shadow: 0px 1px 1px gray;
+    }
+    
+.btn{
+    display: flex;
+    padding: 2px;
+}
+
+#calc{
+    border-radius: 0 0 2px 2px;
+    border:1px solid 717377;
+    box-shadow:0px 1px 12px dimgray;
+    width: 221px;
+    height: 310px;
+}
+
+input{
+    width: 185px;
+    height: 50px;
+    border: none;
+    background:transparent;
+    border-radius: 2px 2px 0 0;
+    font-size: 22px;
+    text-align: right;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#1b1919dd,#242525);
+}
+
+}
